@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.bg-1 {
+    background-image: url('images/image1.png');
+    min-height: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.bg-2 {
+    background-image: url('images/image2.png');
+    min-height: 700px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.bg-3 {
+    background-image: url('images/image3.png');
+    min-height: 400px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.title {
+    font-size: 4rem;
+    background-color: #313534;
+padding: 12px;
+
+    color: #ffff;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+text-align: center;
+}
+.section-one h1{
+    font-size: 32px;
+    color: black;
+}
+.section-one{
+    padding: 50px 80px;
+    text-align: center;
+    line-height: 35px;
+    
+
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+   
+}
+
+.section-two{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #282e34;
+    color: #ddd;
+    line-height: 35px;
+}
+.section-two h1{
+    color: #ffff;
+    font-size: 32px;
+  
+}
